@@ -1,0 +1,90 @@
+.page-content{
+    margin-top: 140px;
+    color: white;
+    display: flex;
+  }
+
+  .timeline-full-element, .timeline-full-element-1{
+    padding: 20px 15px 20px 15px ;
+    display: flex;
+    width: 350px;
+    border-radius: 12px;
+    background-color: white;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .timeline-position{
+    color: black;
+    font-size: 25px;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  
+  .timeline-job{
+    color: black;
+    font-size: 15px;
+    margin-bottom: 15px;
+  }
+  
+  .timeline-logo-div{
+    margin-bottom: 10px;
+  }
+  
+  .timeline-logo{
+    height: 100px;
+    width: 200px;
+    object-fit: contain;
+  }
+  
+  .timeline-description{
+    font-size: 15px;
+    color: black;
+    text-align: center;
+  }
+
+.timeline{
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    height: 5200px;
+}
+
+
+.middle-section{
+    width: 30px;
+    background-color: white;
+}
+
+.middle-photo{
+  width: 30px;
+  height: 30px;
+  border-radius: 15px;
+  z-index: 100;
+  position: fixed;
+  margin-top: 190px;
+}
+
+.right-section, .left-section{
+    padding: 20px 20px 20px 20px ;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.left-section .timeline-full-element-1{
+  margin-bottom: 425px;
+}
+
+.left-section .timeline-full-element{
+  margin-bottom: 425px;
+}
+
+.right-section .timeline-full-element-1{
+  margin-top: 340px;
+}
+
+.right-section .timeline-full-element{
+  margin-top: 425px;
+}

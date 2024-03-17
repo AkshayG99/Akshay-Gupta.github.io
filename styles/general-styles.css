@@ -1,0 +1,74 @@
+.body{
+    font-family: Oswald;
+    background-color: black;
+}
+  
+.header{
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    padding: 20px 20px 20px 30px;
+    margin-bottom: 40px;
+    position: fixed;
+    z-index: 101;
+}
+  
+.left-header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-right: 50px;
+    flex: 1
+}
+  
+.header-picture{
+    width: 90px;
+    height: 90px;
+    border-radius: 45px;
+    transition: box-shadow 0.3s;
+}
+  
+.header-name{
+    margin-left: 35px;
+    font-size: 25px;
+    font-weight: 800;
+    background: none;
+    border: none;
+    font-family: Oswald;
+    text-decoration: underline;
+    transition: box-shadow 0.3s;
+    color: rgb(255, 0, 0);
+}
+  
+.right-header{
+    display: flex;
+    flex: 2;
+    justify-content: space-between;
+    align-items: center;
+}
+  
+.header-pages{
+    font-family: Oswald;
+    font-size: 25px;
+    height: 40px;
+    border: none;
+    background: none;
+    transition: box-shadow 0.3s;
+}
+
+.about-me, .i-am{
+  transition: color 0.3s;
+}
+
+.header-picture:hover, .header-name:hover, .header-pages:hover{
+  cursor: pointer;
+  box-shadow: 0px 5px 1px 0px rgba(160, 160, 160, 0.3);
+}
+
+.about-me:hover, .i-am:hover{
+  color: red;
+}
+
